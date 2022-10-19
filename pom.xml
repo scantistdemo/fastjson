@@ -598,7 +598,7 @@
         <dependency>
             <groupId>org.gitlab4j</groupId>
             <artifactId>gitlab4j-api</artifactId>
-            <version>4.8.42</version>
+            <version>4.12.10</version>
             <scope>test</scope>
         </dependency>
 
