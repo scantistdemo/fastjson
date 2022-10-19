@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>org.sonatype.oss</groupId>
@@ -67,7 +65,7 @@
             <email>email_dsl@163.com</email>
         </developer>
         <developer>
-            <name>李恒名</name>
+            <name>&#26446;&#24658;&#21517;</name>
             <url>https://github.com/lihengming/</url>
             <email>89921218@qq.com</email>
         </developer>
@@ -107,29 +105,7 @@
                     </dependency>
                 </dependencies>
             </plugin>
-            <!--
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.8.0</version>
-                <configuration>
-                    <encoding>UTF-8</encoding>
-                    <source>11</source>
-                    <target>11</target>
-                    <compilerArgs>
-                        <arg>- -add-modules</arg>
-                        <arg>java.xml.bind</arg>
-                    </compilerArgs>
-                </configuration>
-                <dependencies>
-                    <dependency>
-                        <groupId>org.codehaus.plexus</groupId>
-                        <artifactId>plexus-compiler-javac</artifactId>
-                        <version>2.7</version>
-                    </dependency>
-                </dependencies>
-            </plugin>
-            -->
+            
 
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -406,7 +382,7 @@
         <dependency>
             <groupId>com.googlecode.json-simple</groupId>
             <artifactId>json-simple</artifactId>
-            <version>1.1.1</version>
+            <version>1.1</version>
             <scope>test</scope>
         </dependency>
 
@@ -653,9 +629,9 @@
             <build>
                 <plugins>
                     <plugin>
-                        <!-- for codecov.io -->
-                        <!-- config example: https://github.com/codecov/example-java -->
-                        <!-- plugin docs: http://eclemma.org/jacoco/trunk/doc/ -->
+                        
+                        
+                        
                         <groupId>org.jacoco</groupId>
                         <artifactId>jacoco-maven-plugin</artifactId>
                         <version>0.8.7</version>
@@ -680,4 +656,3 @@
 
     </profiles>
 </project>
-
